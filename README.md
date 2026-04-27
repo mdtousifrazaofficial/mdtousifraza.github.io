@@ -51,7 +51,7 @@ I work with SQL, Excel, Power BI, and Python to analyze data and build meaningfu
 ## 📁 Project Structure
 
 ```
-Portfolio/
+mdtousifraza.github.io/
 │
 ├── index.html
 ├── case-study.html
