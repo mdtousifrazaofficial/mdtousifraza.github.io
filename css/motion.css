@@ -1,0 +1,75 @@
+/* =========================================
+   MOTION & MICRO-INTERACTIONS
+   ========================================= */
+
+/* Scroll Reveal Base */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), 
+                transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Reveal Active State */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger Delays for Grid Elements */
+.delay-100 { transition-delay: 0.1s; }
+.delay-200 { transition-delay: 0.2s; }
+.delay-300 { transition-delay: 0.3s; }
+.delay-400 { transition-delay: 0.4s; }
+
+/* Dashboard Mockup Entrance */
+.hero-visual .dashboard-mockup {
+    opacity: 0;
+    transform: perspective(1000px) rotateY(-5deg) rotateX(5deg) translateY(40px) scale(0.95);
+    transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), 
+                transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hero-visual.active .dashboard-mockup {
+    opacity: 1;
+    transform: perspective(1000px) rotateY(-5deg) rotateX(5deg) translateY(0) scale(1);
+}
+
+/* Navbar blur effect animation on scroll */
+.navbar {
+    transition: background-color 0.6s ease-in-out, border-color 0.6s ease-in-out, box-shadow 0.6s ease-in-out, backdrop-filter 0.6s ease-in-out;
+}
+.navbar.scrolled {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(15, 23, 42, 0.98); /* Deep dark slate */
+    backdrop-filter: blur(12px);
+}
+.navbar.scrolled .logo, .navbar.scrolled .nav-links a {
+    color: #ffffff;
+}
+.navbar.scrolled .nav-links a:hover {
+    color: #06B6D4; /* Cyan accent on hover when dark */
+}
+
+/* Terminal Blinking Cursor */
+.blink {
+    animation: blink-caret 1s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+/* Glitch Hover Effect */
+.glitch-hover:hover {
+    animation: glitch 0.2s cubic-bezier(.25, .46, .45, .94) both infinite;
+    color: var(--accent-primary) !important;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0) }
+    20% { transform: translate(-2px, 2px) }
+    40% { transform: translate(-2px, -2px) }
+    60% { transform: translate(2px, 2px) }
+    80% { transform: translate(2px, -2px) }
+    100% { transform: translate(0) }
+}

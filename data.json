@@ -1,0 +1,157 @@
+{
+    "resume_link": "#",
+    "projects": [
+        {
+            "id": 1,
+            "title": "Credit Risk & Loan Default Prediction",
+            "tags": "SQL, Python, Power BI",
+            "problem": "A Fintech NBFC faced a 14% NPA rate and needed to identify high-risk segments without overhauling core ML infrastructure.",
+            "approach": "Extracted 50K+ records via PostgreSQL. Engineered a behavioral risk score using Python (Random Forest) and built a dynamic monitoring dashboard in Power BI.",
+            "impact": "Built a predictive model that identified high-risk segments, demonstrating a potential 11% NPA reduction strategy.",
+            "link": "#",
+            "theme": "blue"
+        },
+        {
+            "id": 2,
+            "title": "E-Commerce Funnel & Revenue Leakage",
+            "tags": "SQL, Tableau, Funnel Analysis",
+            "problem": "Despite a 40% YoY traffic increase, checkout conversion remained stagnant.",
+            "approach": "Wrote complex SQL window functions to map the user journey (View → Cart → Checkout). Visualized drop-off points in Tableau.",
+            "impact": "Formulated a UI redesign strategy targeting a simulated ₹2.3Cr/month revenue leakage to lift conversions.",
+            "link": "#",
+            "theme": "orange"
+        },
+        {
+            "id": 3,
+            "title": "SaaS Customer Churn Prediction",
+            "tags": "Python, Power BI, Predictive Modeling",
+            "problem": "A B2B SaaS platform was bleeding accounts at an unsustainable 5.2% monthly churn rate.",
+            "approach": "Analyzed login frequency and feature adoption using Python. Created an Account Health Score matrix deployed via Power BI.",
+            "impact": "Prototyped an early-warning system capable of identifying 73% of at-risk accounts 30 days in advance.",
+            "link": "#",
+            "theme": "green"
+        }
+    ],
+    "certificates": [
+        {
+            "id": 1,
+            "title": "Google Data Analytics Professional Certificate",
+            "issuer": "Google / Coursera",
+            "category": "datascience",
+            "category_name": "Data Analytics",
+            "date": "2024",
+            "skills": ["Data Analysis", "SQL", "R", "Tableau", "Spreadsheets"],
+            "image": "assets/certificates img/Google Data Analytics.jpg",
+            "credential_id": "GOOGLE-DA-VERIFIED",
+            "badge_color": "cyan"
+        },
+        {
+            "id": 2,
+            "title": "Data Analytics with Generative AI",
+            "issuer": "AI Analytics Institute",
+            "category": "ai",
+            "category_name": "AI & Analytics",
+            "date": "2024",
+            "skills": ["Generative AI", "Python Analytics", "Prompting", "AI Insights"],
+            "image": "assets/certificates img/Data Analytics with Generative AI.jpg",
+            "credential_id": "DA-GENAI-CERT-2024",
+            "badge_color": "amber"
+        },
+        {
+            "id": 3,
+            "title": "Business Analytics with AI Training",
+            "issuer": "Internshala / AI Training",
+            "category": "ai",
+            "category_name": "AI & Analytics",
+            "date": "2024",
+            "skills": ["Business Analytics", "AI Tools", "Predictive Modeling", "Data Strategy"],
+            "image": "assets/certificates img/Business Analytics with AI Training - Certificate of Completion_page-0001 (1).jpg",
+            "credential_id": "BA-AI-CERT-COMPLETION",
+            "badge_color": "amber"
+        },
+        {
+            "id": 4,
+            "title": "30-Day SQL Micro Course Certification",
+            "issuer": "SQL Master Analytics",
+            "category": "sql",
+            "category_name": "SQL & Databases",
+            "date": "2024",
+            "skills": ["SQL", "Complex Joins", "Aggregations", "Query Optimization"],
+            "image": "assets/certificates img/30-Days-SQL-Micro-Course-Ce.jpg",
+            "credential_id": "SQL-30DAY-CERT",
+            "badge_color": "blue"
+        },
+        {
+            "id": 5,
+            "title": "30-Day Power BI Micro Course Certification",
+            "issuer": "Power BI Masterclass",
+            "category": "powerbi",
+            "category_name": "Power BI & Data Vis",
+            "date": "2024",
+            "skills": ["Power BI", "DAX", "Data Modeling", "Interactive Dashboards"],
+            "image": "assets/certificates img/30-Days-Power-BI-Micro-Course_photo.jpg",
+            "credential_id": "PBI-30DAY-CERT",
+            "badge_color": "amber"
+        },
+        {
+            "id": 6,
+            "title": "30-Day Advanced Excel Analytics Certification",
+            "issuer": "Excel Analytics Lab",
+            "category": "excel",
+            "category_name": "Excel Analytics",
+            "date": "2024",
+            "skills": ["Advanced Excel", "Pivot Tables", "Power Query", "Data Cleaning"],
+            "image": "assets/certificates img/Excel-30-Days-Course.jpg",
+            "credential_id": "EXCEL-30DAY-CERT",
+            "badge_color": "green"
+        },
+        {
+            "id": 7,
+            "title": "Data Analysis using Microsoft Excel",
+            "issuer": "Microsoft / Training Academy",
+            "category": "excel",
+            "category_name": "Excel Analytics",
+            "date": "2024",
+            "skills": ["Excel Formulas", "Data Modeling", "XLOOKUP", "Charts & Dashboards"],
+            "image": "assets/certificates img/Excel.jpg",
+            "credential_id": "EXCEL-DA-VERIFIED",
+            "badge_color": "green"
+        },
+        {
+            "id": 8,
+            "title": "Microsoft Copilot & AI Analytics Productivity",
+            "issuer": "Microsoft / AI Skills",
+            "category": "ai",
+            "category_name": "AI & Analytics",
+            "date": "2024",
+            "skills": ["Microsoft Copilot", "AI Productivity", "Prompt Engineering", "Automation"],
+            "image": "assets/certificates img/Copilot-With-Photo.jpg",
+            "credential_id": "COPILOT-AI-CERT",
+            "badge_color": "cyan"
+        },
+        {
+            "id": 9,
+            "title": "CuriosJr Master Plan Certificate",
+            "issuer": "CuriosJr",
+            "category": "datascience",
+            "category_name": "Coding & Logic",
+            "date": "2024",
+            "skills": ["Coding Fundamentals", "Problem Solving", "Algorithmic Logic"],
+            "image": "assets/certificates img/CuriosJr Mater Plan.jpg",
+            "credential_id": "CURIOSJR-MP-CERT",
+            "badge_color": "blue"
+        },
+        {
+            "id": 10,
+            "title": "Introduction to Claude Cowork",
+            "issuer": "Claude Academy",
+            "category": "ai",
+            "category_name": "AI & Analytics",
+            "date": "August 22, 2026",
+            "skills": ["Claude AI", "AI Coworking", "Prompting", "AI Workflow"],
+            "image": "assets/certificates img/Introduction to Claude Cowork.png",
+            "credential_id": "CLAUDE-ACADEMY-2026",
+            "badge_color": "cyan"
+        }
+    ]
+}

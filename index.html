@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Tousif Raza | Premium Data Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo glitch-hover">Md Tousif Raza <span class="blink" style="color: var(--accent-primary);">_</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Case Studies</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact" class="btn btn-sm btn-primary">Let's Talk</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge reveal typing-text" data-text="> INIT_USER: Md Tousif Raza">_</div>
+                <h1 class="hero-title reveal delay-100">Helping businesses make smarter decisions using <span class="text-gradient">data.</span></h1>
+                <p class="hero-subtitle reveal delay-200">
+                    I analyze raw datasets, build interactive dashboards, and uncover insights that improve business performance using SQL, Excel, and Power BI. Actively seeking entry-level roles.
+                </p>
+                <div class="hero-actions reveal delay-300">
+                    <a href="#projects" class="btn btn-primary">View Case Studies</a>
+                    <a href="assets/MTR - Data Analyst.pdf" download="MTR - Data Analyst.pdf" target="_blank" class="btn btn-secondary"><i class="fa-solid fa-file-pdf"></i> Download Resume</a>
+                </div>
+                
+                <!-- Trust Bar -->
+                <div class="trust-bar reveal delay-400" style="margin-top: 40px; display: flex; gap: 24px; align-items: center; color: var(--text-secondary); font-size: 0.95rem; font-weight: 500; flex-wrap: wrap;">
+                    <span style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.8rem; color: var(--text-muted); font-weight: 700;">Core Tools:</span>
+                    <span><i class="fa-solid fa-database" style="color: var(--accent-primary);"></i> SQL</span>
+                    <span><i class="fa-solid fa-file-excel" style="color: #10B981;"></i> Excel</span>
+                    <span><i class="fa-solid fa-chart-pie" style="color: #F59E0B;"></i> Power BI</span>
+                    <span><i class="fa-brands fa-python" style="color: #4F46E5;"></i> Python</span>
+                </div>
+            </div>
+            
+            <!-- Abstract Visual / Dashboard Graphic -->
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <div class="dots"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="mockup-body">
+                        <div class="mockup-chart">
+                            <div class="bar" style="height: 40%;"></div>
+                            <div class="bar" style="height: 60%;"></div>
+                            <div class="bar" style="height: 35%;"></div>
+                            <div class="bar" style="height: 80%;"></div>
+                            <div class="bar" style="height: 100%; background: var(--accent-primary);"></div>
+                        </div>
+                        <div class="mockup-cards">
+                            <div class="m-card"></div>
+                            <div class="m-card"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics Section -->
+    <section class="metrics" style="padding-top: 0; margin-top: -40px; position: relative; z-index: 10;">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-card reveal">
+                    <div class="metric-icon" style="color: var(--accent-primary); background: rgba(0,240,255,0.1); border: 1px solid var(--accent-primary);"><i class="fa-solid fa-database"></i></div>
+                    <div>
+                        <div class="metric-val">307K+</div>
+                        <div class="metric-label">Data Records Analyzed</div>
+                    </div>
+                </div>
+                <div class="metric-card reveal delay-100">
+                    <div class="metric-icon" style="color: var(--accent-teal); background: rgba(0,255,102,0.1); border: 1px solid var(--accent-teal);"><i class="fa-solid fa-calendar-days"></i></div>
+                    <div>
+                        <div class="metric-val">25 Yrs</div>
+                        <div class="metric-label">Global Market Data</div>
+                    </div>
+                </div>
+                <div class="metric-card reveal delay-200">
+                    <div class="metric-icon" style="color: #ff9900; background: rgba(255,153,0,0.1); border: 1px solid #ff9900;"><i class="fa-solid fa-chart-line"></i></div>
+                    <div>
+                        <div class="metric-val">61</div>
+                        <div class="metric-label">Stocks Tracked & Analyzed</div>
+                    </div>
+                </div>
+                <div class="metric-card reveal delay-300">
+                    <div class="metric-icon" style="color: #e23744; background: rgba(226,55,68,0.1); border: 1px solid #e23744;"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <div>
+                        <div class="metric-val">Top 20%</div>
+                        <div class="metric-label">Revenue Drivers Identified</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about bg-light" id="about">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">The Analyst Behind the Data</h2>
+                <p class="section-subtitle mx-auto">Translating datasets into scalable business strategies.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-intro reveal delay-100">
+                    <p>
+                        With a strong foundation in statistical analysis and problem-solving, I specialize in uncovering user behavioral patterns, identifying revenue leakage, and building predictive models to mitigate churn.
+                    </p>
+                    <div class="philosophy-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>"I believe an analyst's job doesn't end with a dashboard; it ends with a business decision. I focus on root-cause analysis over vanity metrics."</p>
+                    </div>
+                </div>
+                
+                <div class="about-highlights reveal delay-200">
+                    <div class="highlight-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>Education</h3>
+                        <div style="font-size: 0.95rem;">
+                            <p style="margin-bottom: 12px; line-height: 1.4;"><strong>IIT Madras</strong><br>BS in Data Science<br><span style="color: var(--text-muted); font-size: 0.85rem;">2025 – 2029</span></p>
+                            <p style="margin-bottom: 0; line-height: 1.4;"><strong>Girivar +2 High School</strong><br>Intermediate of Science<br><span style="color: var(--text-muted); font-size: 0.85rem;">2023 – 2025</span></p>
+                        </div>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h3>Strategic Focus</h3>
+                        <p>Bridging the gap between raw technical analysis and cross-functional strategic decision-making.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Technical Depth</h3>
+                        <p>Designing robust data pipelines using advanced SQL, Python (Pandas/NumPy), and BI platforms.</p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Experience & Practical Exposure Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Practical Experience</h2>
+                <p class="section-subtitle mx-auto">Hands-on analytics exposure, end-to-end project execution, and technical specialization.</p>
+            </div>
+
+            <div class="timeline">
+                
+                <!-- Experience Item: InAmigos Foundation -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">AI Data Analytics Intern</h3>
+                                <span class="company-name"><i class="fa-solid fa-building-ngo"></i> InAmigos Foundation (NGO) • Remote</span>
+                            </div>
+                            <span class="timeline-date">Aug 2026</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Collected, organized, and maintained structured organizational data for performance reporting and decision-making summaries.</li>
+                            <li>Created data analytics insights, trend reports, and interactive summaries on volunteer and intern performance metrics.</li>
+                            <li>Researched and integrated modern AI tools to optimize workflow efficiency, data pipeline automation, and project documentation.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="skill-pill">AI Data Analytics</span>
+                            <span class="skill-pill">Dashboard Summaries</span>
+                            <span class="skill-pill">Data Management</span>
+                            <span class="skill-pill">Workflow Optimization</span>
+                            <span class="skill-pill">Trend Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item: Deloitte Data Analytics Virtual Internship -->
+                <div class="timeline-item reveal delay-50">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Data Analytics Virtual Intern</h3>
+                                <span class="company-name"><i class="fa-solid fa-building-columns"></i> Deloitte • Virtual Internship (Forage)</span>
+                            </div>
+                            <span class="timeline-date">Aug 2026</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Completed Deloitte's Data Analytics virtual engineering simulation, analyzing industrial telemetry data and forensic technology cases.</li>
+                            <li>Parsed JSON telemetry datasets in Tableau, engineering calculated fields (`Unhealthy` machine downtime metrics) and interactive cross-filtering dashboards.</li>
+                            <li>Executed forensic technology analysis to investigate pay equity metrics and produce executive workplace investigation reports.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="skill-pill">Deloitte Analytics</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">Telemetry Data</span>
+                            <span class="skill-pill">Forensic Tech</span>
+                            <span class="skill-pill">Dashboard Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item reveal delay-100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Data Analytics & BI Project Developer</h3>
+                                <span class="company-name"><i class="fa-solid fa-laptop-code"></i> Independent Analytical Projects</span>
+                            </div>
+                            <span class="timeline-date">2024 – Present</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Extracted and queried 300K+ records using PostgreSQL and Python (Pandas/NumPy) to solve real business bottlenecks.</li>
+                            <li>Engineered an early-warning churn prediction matrix identifying 73% of at-risk SaaS accounts 30 days in advance.</li>
+                            <li>Designed interactive, cross-platform dashboards in Power BI and Vanilla JS to track revenue metrics and stock volatility.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Power BI</span>
+                            <span class="skill-pill">ETL</span>
+                            <span class="skill-pill">EDA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item reveal delay-100">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">AI & Business Analytics Trainee</h3>
+                                <span class="company-name"><i class="fa-solid fa-robot"></i> Internshala / Specialization Program</span>
+                            </div>
+                            <span class="timeline-date">2024</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Applied generative AI analytics and machine learning techniques to streamline business reporting workflows.</li>
+                            <li>Automated data cleaning and transformation procedures using Excel (VBA & Power Query) and Python scripts.</li>
+                            <li>Formulated data-backed strategic recommendations for simulated e-commerce revenue leakage scenarios.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="skill-pill">Business Analytics</span>
+                            <span class="skill-pill">AI Tools</span>
+                            <span class="skill-pill">Excel VBA</span>
+                            <span class="skill-pill">Power Query</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="timeline-item reveal delay-200">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Data Analytics Practitioner</h3>
+                                <span class="company-name"><i class="fa-brands fa-google"></i> Google Professional Program</span>
+                            </div>
+                            <span class="timeline-date">2024</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Executed the full data analysis lifecycle (Ask, Prepare, Process, Analyze, Share, Act) on case datasets.</li>
+                            <li>Built data visualizations in Tableau and Google Sheets to communicate insights to non-technical stakeholders.</li>
+                            <li>Practiced analytical query writing and relational database normalization.</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="skill-pill">Google Analytics</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">R</span>
+                            <span class="skill-pill">Data Storytelling</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <p class="section-subtitle mx-auto">Modern tools and methodologies I use to drive business value.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-box reveal">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Programming & Analytics</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+                        <li>R (Basic)</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-box reveal delay-100">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Databases</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>BigQuery (Basic)</li>
+                    </ul>
+                </div>
+                <div class="skill-box reveal delay-200">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <h3>Data Vis & Reporting</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Power BI, Tableau</li>
+                        <li>Excel Dashboards</li>
+                        <li>MIS & Business Reporting</li>
+                    </ul>
+                </div>
+                <div class="skill-box reveal delay-300">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-filter"></i>
+                        <h3>Data Processing</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Excel (Adv, VBA, Power Query)</li>
+                        <li>Data Cleaning & ETL</li>
+                        <li>Google Sheets</li>
+                    </ul>
+                </div>
+                <div class="skill-box reveal delay-400">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-calculator"></i>
+                        <h3>Math & Statistics</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Probability & Hypothesis Testing</li>
+                        <li>Linear Algebra</li>
+                        <li>Correlation</li>
+                    </ul>
+                </div>
+                <div class="skill-box reveal delay-500">
+                    <div class="skill-header">
+                        <i class="fa-solid fa-microchip"></i>
+                        <h3>AI & Professional Skills</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>AI Analytics (Claude, ChatGPT, Julius)</li>
+                        <li>Web Dev Basics (HTML, CSS, JS)</li>
+                        <li>Strategic Problem-Solving</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects (Case Studies) -->
+    <section class="projects bg-light" id="projects">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Featured Case Studies</h2>
+                <p class="section-subtitle mx-auto">Real-world business problems solved through structured data analysis.</p>
+            </div>
+
+            <div class="projects-cards-container">
+                
+                <!-- Project 1 -->
+                <div class="project-card-premium reveal">
+                    <div class="project-card-header">
+                        <div class="project-tags">
+                            <span class="tag" style="background: rgba(226, 55, 68, 0.1); color: #e23744; border: 1px solid rgba(226, 55, 68, 0.2);">DAX</span>
+                            <span class="tag tag-gray">Python</span>
+                            <span class="tag tag-gray">Power BI</span>
+                        </div>
+                        <h3 class="project-title">Zomato Data Analysis Dashboard</h3>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="case-item">
+                            <div class="case-label">Problem</div>
+                            <div class="case-text">Needed to understand restaurant performance, customer behavior, and delivery impact to improve business decisions in the food delivery industry.</div>
+                        </div>
+                        <div class="case-item">
+                            <div class="case-label">Approach</div>
+                            <div class="case-text">Performed data cleaning and EDA with Python, executed analytical queries using PostgreSQL, and built an interactive dashboard in Power BI.</div>
+                        </div>
+                        <div class="case-item impact-highlight">
+                            <div class="case-label text-gradient">Business Impact</div>
+                            <div class="case-text font-semibold">Provided actionable insights to improve delivery time for retention and focus on high-performing restaurant segments.</div>
+                        </div>
+                    </div>
+                    <div class="project-card-footer" style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <a href="case-study.html#1" class="btn btn-outline">Read Full Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://github.com/mdtousifrazaofficial/zomato-data-analysis" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> View GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card-premium reveal delay-100">
+                    <div class="project-card-header">
+                        <div class="project-tags">
+                            <span class="tag" style="background: rgba(168, 85, 247, 0.1); color: #a855f7; border: 1px solid rgba(168, 85, 247, 0.2);">Data Analytics</span>
+                            <span class="tag tag-gray">Python</span>
+                            <span class="tag tag-gray">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">APEX MARKETS — Global Stock Intelligence</h3>
+                    </div>
+                    <div class="project-card-body">
+                        <div class="case-item">
+                            <div class="case-label">Problem</div>
+                            <div class="case-text">Needed to turn 25 years of messy, real-world stock data into actionable insights without relying on paid BI tools or subscriptions.</div>
+                        </div>
+                        <div class="case-item">
+                            <div class="case-label">Approach</div>
+                            <div class="case-text">Cleaned 307K+ records with Python, engineered features, and built an interactive, dependency-free dashboard using Vanilla JS and Chart.js.</div>
+                        </div>
+                        <div class="case-item impact-highlight">
+                            <div class="case-label text-gradient">Business Impact</div>
+                            <div class="case-text font-semibold">Discovered key market patterns, proving volatility ≠ returns, and democratized financial analytics through a browser-native tool.</div>
+                        </div>
+                    </div>
+                    <div class="project-card-footer" style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <a href="case-study.html#2" class="btn btn-outline">Read Full Case Study <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://github.com/mdtousifrazaofficial/APEX-MARKETS-Global-Stock-Intelligence-Dashboard" target="_blank" class="btn btn-outline"><i class="fa-brands fa-github"></i> View GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Verified Certifications</h2>
+                <p class="section-subtitle mx-auto">Formal credentials and specialized certifications validating data analytics expertise.</p>
+            </div>
+
+            <!-- Certificate Category Filter Bar -->
+            <div class="cert-filter-bar reveal text-center" style="margin-bottom: 40px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+                <button class="cert-filter-btn active" data-filter="all">All Credentials</button>
+                <button class="cert-filter-btn" data-filter="datascience">Data Analytics & Science</button>
+                <button class="cert-filter-btn" data-filter="ai">AI & Analytics</button>
+                <button class="cert-filter-btn" data-filter="sql">SQL & Databases</button>
+                <button class="cert-filter-btn" data-filter="powerbi">Power BI</button>
+                <button class="cert-filter-btn" data-filter="excel">Excel Analytics</button>
+            </div>
+
+            <!-- Certificate Grid -->
+            <div class="certificates-grid">
+                
+                <!-- Cert 1: Google Data Analytics -->
+                <div class="cert-card reveal" data-category="datascience">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Google Data Analytics.jpg', 'Google Data Analytics Professional Certificate', 'Google / Coursera', '2024', 'GOOGLE-DA-VERIFIED', 'Data Analysis, SQL, R, Tableau, Spreadsheets')">
+                        <img src="assets/certificates img/Google Data Analytics.jpg" alt="Google Data Analytics Professional Certificate" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-cyan"><i class="fa-brands fa-google"></i> Google</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">Google Data Analytics Professional Certificate</h3>
+                        <p class="cert-issuer">Issued by <strong>Google / Coursera</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">R</span>
+                            <span class="skill-pill">Tableau</span>
+                            <span class="skill-pill">Data Cleaning</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Google Data Analytics.jpg', 'Google Data Analytics Professional Certificate', 'Google / Coursera', '2024', 'GOOGLE-DA-VERIFIED', 'Data Analysis, SQL, R, Tableau, Spreadsheets')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Google Data Analytics.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 2: Data Analytics with Generative AI -->
+                <div class="cert-card reveal delay-100" data-category="ai">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Data Analytics with Generative AI.jpg', 'Data Analytics with Generative AI', 'AI Analytics Institute', '2024', 'DA-GENAI-CERT-2024', 'Generative AI, Python Analytics, Prompting, AI Insights')">
+                        <img src="assets/certificates img/Data Analytics with Generative AI.jpg" alt="Data Analytics with Generative AI" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-amber"><i class="fa-solid fa-wand-magic-sparkles"></i> GenAI</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">Data Analytics with Generative AI</h3>
+                        <p class="cert-issuer">Issued by <strong>AI Analytics Institute</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">Generative AI</span>
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Prompting</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Data Analytics with Generative AI.jpg', 'Data Analytics with Generative AI', 'AI Analytics Institute', '2024', 'DA-GENAI-CERT-2024', 'Generative AI, Python Analytics, Prompting, AI Insights')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Data Analytics with Generative AI.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 3: Business Analytics with AI -->
+                <div class="cert-card reveal delay-150" data-category="ai">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Business Analytics with AI Training - Certificate of Completion_page-0001 (1).jpg', 'Business Analytics with AI Training', 'Internshala / AI Training', '2024', 'BA-AI-CERT-COMPLETION', 'Business Analytics, AI Tools, Predictive Modeling, Data Strategy')">
+                        <img src="assets/certificates img/Business Analytics with AI Training - Certificate of Completion_page-0001 (1).jpg" alt="Business Analytics with AI Training Certificate" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-amber"><i class="fa-solid fa-robot"></i> AI & Analytics</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">Business Analytics with AI Training</h3>
+                        <p class="cert-issuer">Issued by <strong>Internshala / AI Training</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">AI Tools</span>
+                            <span class="skill-pill">Predictive Modeling</span>
+                            <span class="skill-pill">Business Strategy</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Business Analytics with AI Training - Certificate of Completion_page-0001 (1).jpg', 'Business Analytics with AI Training', 'Internshala / AI Training', '2024', 'BA-AI-CERT-COMPLETION', 'Business Analytics, AI Tools, Predictive Modeling, Data Strategy')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Business Analytics with AI Training - Certificate of Completion_page-0001 (1).jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 4: 30-Day SQL Micro Course -->
+                <div class="cert-card reveal delay-200" data-category="sql">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/30-Days-SQL-Micro-Course-Ce.jpg', '30-Day SQL Micro Course Certification', 'SQL Master Analytics', '2024', 'SQL-30DAY-CERT', 'SQL, Complex Joins, Aggregations, Query Optimization')">
+                        <img src="assets/certificates img/30-Days-SQL-Micro-Course-Ce.jpg" alt="30-Day SQL Micro Course Certificate" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-blue"><i class="fa-solid fa-database"></i> SQL</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">30-Day SQL Micro Course Certification</h3>
+                        <p class="cert-issuer">Issued by <strong>SQL Master Analytics</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">Joins</span>
+                            <span class="skill-pill">Optimization</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/30-Days-SQL-Micro-Course-Ce.jpg', '30-Day SQL Micro Course Certification', 'SQL Master Analytics', '2024', 'SQL-30DAY-CERT', 'SQL, Complex Joins, Aggregations, Query Optimization')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/30-Days-SQL-Micro-Course-Ce.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 5: 30-Day Power BI Micro Course -->
+                <div class="cert-card reveal delay-250" data-category="powerbi">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/30-Days-Power-BI-Micro-Course_photo.jpg', '30-Day Power BI Micro Course Certification', 'Power BI Masterclass', '2024', 'PBI-30DAY-CERT', 'Power BI, DAX, Data Modeling, Interactive Dashboards')">
+                        <img src="assets/certificates img/30-Days-Power-BI-Micro-Course_photo.jpg" alt="30-Day Power BI Micro Course Certificate" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-amber"><i class="fa-solid fa-chart-pie"></i> Power BI</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">30-Day Power BI Micro Course Certification</h3>
+                        <p class="cert-issuer">Issued by <strong>Power BI Masterclass</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">DAX</span>
+                            <span class="skill-pill">Modeling</span>
+                            <span class="skill-pill">Dashboards</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/30-Days-Power-BI-Micro-Course_photo.jpg', '30-Day Power BI Micro Course Certification', 'Power BI Masterclass', '2024', 'PBI-30DAY-CERT', 'Power BI, DAX, Data Modeling, Interactive Dashboards')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/30-Days-Power-BI-Micro-Course_photo.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 6: 30-Day Advanced Excel Analytics -->
+                <div class="cert-card reveal delay-300" data-category="excel">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Excel-30-Days-Course.jpg', '30-Day Advanced Excel Analytics Certification', 'Excel Analytics Lab', '2024', 'EXCEL-30DAY-CERT', 'Advanced Excel, Pivot Tables, Power Query, Data Cleaning')">
+                        <img src="assets/certificates img/Excel-30-Days-Course.jpg" alt="30-Day Advanced Excel Analytics Course" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-green"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">30-Day Advanced Excel Analytics Certification</h3>
+                        <p class="cert-issuer">Issued by <strong>Excel Analytics Lab</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">Pivot Tables</span>
+                            <span class="skill-pill">Power Query</span>
+                            <span class="skill-pill">ETL</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Excel-30-Days-Course.jpg', '30-Day Advanced Excel Analytics Certification', 'Excel Analytics Lab', '2024', 'EXCEL-30DAY-CERT', 'Advanced Excel, Pivot Tables, Power Query, Data Cleaning')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Excel-30-Days-Course.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 7: Data Analysis using Microsoft Excel -->
+                <div class="cert-card reveal delay-350" data-category="excel">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Excel.jpg', 'Data Analysis using Microsoft Excel', 'Microsoft / Training Academy', '2024', 'EXCEL-DA-VERIFIED', 'Excel Formulas, Data Modeling, XLOOKUP, Charts & Dashboards')">
+                        <img src="assets/certificates img/Excel.jpg" alt="Data Analysis using Microsoft Excel" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-green"><i class="fa-solid fa-file-excel"></i> Excel</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">Data Analysis using Microsoft Excel</h3>
+                        <p class="cert-issuer">Issued by <strong>Microsoft / Training Academy</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">XLOOKUP</span>
+                            <span class="skill-pill">Formulas</span>
+                            <span class="skill-pill">Dashboards</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Excel.jpg', 'Data Analysis using Microsoft Excel', 'Microsoft / Training Academy', '2024', 'EXCEL-DA-VERIFIED', 'Excel Formulas, Data Modeling, XLOOKUP, Charts & Dashboards')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Excel.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 8: Microsoft Copilot AI -->
+                <div class="cert-card reveal delay-400" data-category="ai">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Copilot-With-Photo.jpg', 'Microsoft Copilot & AI Analytics Productivity', 'Microsoft / AI Skills', '2024', 'COPILOT-AI-CERT', 'Microsoft Copilot, AI Productivity, Prompt Engineering, Automation')">
+                        <img src="assets/certificates img/Copilot-With-Photo.jpg" alt="Microsoft Copilot & AI Analytics Productivity" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-cyan"><i class="fa-solid fa-robot"></i> Copilot AI</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">Microsoft Copilot & AI Analytics Productivity</h3>
+                        <p class="cert-issuer">Issued by <strong>Microsoft / AI Skills</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">Copilot</span>
+                            <span class="skill-pill">AI Automation</span>
+                            <span class="skill-pill">Prompting</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Copilot-With-Photo.jpg', 'Microsoft Copilot & AI Analytics Productivity', 'Microsoft / AI Skills', '2024', 'COPILOT-AI-CERT', 'Microsoft Copilot, AI Productivity, Prompt Engineering, Automation')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Copilot-With-Photo.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 9: CuriosJr Master Plan -->
+                <div class="cert-card reveal delay-450" data-category="datascience">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/CuriosJr Mater Plan.jpg', 'CuriosJr Master Plan Certificate', 'CuriosJr', '2024', 'CURIOSJR-MP-CERT', 'Coding Fundamentals, Problem Solving, Algorithmic Logic')">
+                        <img src="assets/certificates img/CuriosJr Mater Plan.jpg" alt="CuriosJr Master Plan Certificate" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-blue"><i class="fa-solid fa-code"></i> Logic & Coding</span>
+                            <span class="cert-date">2024</span>
+                        </div>
+                        <h3 class="cert-title">CuriosJr Master Plan Certificate</h3>
+                        <p class="cert-issuer">Issued by <strong>CuriosJr</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">Logic</span>
+                            <span class="skill-pill">Algorithms</span>
+                            <span class="skill-pill">Problem Solving</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/CuriosJr Mater Plan.jpg', 'CuriosJr Master Plan Certificate', 'CuriosJr', '2024', 'CURIOSJR-MP-CERT', 'Coding Fundamentals, Problem Solving, Algorithmic Logic')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/CuriosJr Mater Plan.jpg')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cert 10: Introduction to Claude Cowork -->
+                <div class="cert-card reveal delay-500" data-category="ai">
+                    <div class="cert-img-wrapper" onclick="openCertModal('assets/certificates img/Introduction to Claude Cowork.png', 'Introduction to Claude Cowork', 'Claude Academy', 'August 22, 2026', 'CLAUDE-ACADEMY-2026', 'Claude AI, AI Coworking, Prompting, AI Workflow')">
+                        <img src="assets/certificates img/Introduction to Claude Cowork.png" alt="Introduction to Claude Cowork" loading="lazy" class="cert-img">
+                        <div class="cert-overlay">
+                            <span class="cert-zoom-icon"><i class="fa-solid fa-expand"></i> View Certificate</span>
+                        </div>
+                    </div>
+                    <div class="cert-details">
+                        <div class="cert-badge-row">
+                            <span class="badge badge-cyan"><i class="fa-solid fa-sparkles"></i> Claude AI</span>
+                            <span class="cert-date">Aug 2026</span>
+                        </div>
+                        <h3 class="cert-title">Introduction to Claude Cowork</h3>
+                        <p class="cert-issuer">Issued by <strong>Claude Academy</strong></p>
+                        <div class="cert-skills">
+                            <span class="skill-pill">Claude AI</span>
+                            <span class="skill-pill">AI Coworking</span>
+                            <span class="skill-pill">Prompting</span>
+                        </div>
+                        <div class="cert-footer-actions">
+                            <button class="btn btn-sm btn-primary" onclick="openCertModal('assets/certificates img/Introduction to Claude Cowork.png', 'Introduction to Claude Cowork', 'Claude Academy', 'August 22, 2026', 'CLAUDE-ACADEMY-2026', 'Claude AI, AI Coworking, Prompting, AI Workflow')"><i class="fa-solid fa-magnifying-glass"></i> Preview</button>
+                            <button class="btn btn-sm btn-secondary" onclick="viewFullCertImage('assets/certificates img/Introduction to Claude Cowork.png')"><i class="fa-solid fa-arrow-up-right-from-square"></i> Full Image</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Lightbox Modal -->
+    <div id="certModal" class="cert-modal" onclick="closeCertModal(event)">
+        <div class="cert-modal-content" onclick="event.stopPropagation()">
+            <button class="cert-modal-close" onclick="closeCertModal(event)"><i class="fa-solid fa-xmark"></i></button>
+            <div class="cert-modal-body">
+                <div class="cert-modal-img-container">
+                    <img id="modalCertImg" src="" alt="Certificate Modal View">
+                </div>
+                <div class="cert-modal-info">
+                    <h3 id="modalCertTitle">Certificate Title</h3>
+                    <p class="cert-modal-meta"><span id="modalCertIssuer">Issuer</span> • <span id="modalCertDate">Date</span></p>
+                    <p class="cert-modal-id">Credential ID: <strong id="modalCertId">ID</strong></p>
+                    <div class="cert-modal-skills" id="modalCertSkills"></div>
+                    <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+                        <button id="modalCertDownload" onclick="viewFullCertImage()" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Full Image</button>
+                        <button class="btn btn-secondary btn-sm" onclick="closeCertModal(event)">Close Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-box-premium reveal">
+                <h2 class="section-title text-center">Let's work together.</h2>
+                <p class="section-subtitle text-center mx-auto" style="margin-bottom: 32px;">I'm currently seeking entry-level Data Analyst and internship opportunities.</p>
+                <div class="contact-links">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tousifraza105@gmail.com" target="_blank" class="btn btn-primary btn-lg"><i class="fa-solid fa-envelope"></i> tousifraza105@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/md-tousif-raza-mtr" target="_blank" class="btn btn-secondary btn-lg"><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
+                    <a href="https://github.com/mdtousifrazaofficial" target="_blank" class="btn btn-secondary btn-lg"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MD Tousif Raza. Designed for clarity and impact.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/motion.js"></script>
+</body>
+</html>
